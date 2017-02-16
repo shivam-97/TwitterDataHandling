@@ -3,8 +3,8 @@ import datetime
 import time
 import urllib.request
 import csv
-app_id = "179839792502160"
-app_secret = "1c5ae2c3386580eb0db4f011d227077c"
+app_id = "your ID"
+app_secret = "your secret"
 
 access_token = app_id + "|" + app_secret
 page_id = '661718383875603'
