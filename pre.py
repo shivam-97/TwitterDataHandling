@@ -8,7 +8,6 @@ for file_name in glob('foo/*.json'):
         name = []
         data = []
         url = []
-        l = []
         file_name = file_name[4:-7]
         name.append(file_name)
         #try :
@@ -89,8 +88,7 @@ for file_name in glob('foo/*.json'):
         #print(value)
         #print(total)
 
-        #url = list(set(url))
-        l.append(len(url))
+        url = list(set(url))
         if(v !=0 and (total/v) >= 20) :
             data.append('active')
             print(file_name)
