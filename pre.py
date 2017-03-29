@@ -96,7 +96,7 @@ for file_name in glob('foo/*.json'):
             data.append('inactive')
         output = open('out/'+file_name+'.csv', 'w')
         # print os.getcwd()
-        rows = zip(name,data,url,l)
+        rows = zip(name,data,url)
         from csv import writer
 
         csv = writer(output)
